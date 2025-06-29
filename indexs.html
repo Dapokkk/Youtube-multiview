@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer">
+    <title>YouTube-Multiview</title>More actions
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div id="video-box-grid">
+      <template id="video-box-template">
+        <link href="css/style.css" rel="stylesheet">
+        <div class="video-box">
+          <iframe frameborder="0" allowfullscreen></iframe>
+          <div class="video-box-overlay">
+            <button class="remove-button">gosok</button>
+          </div>
+        </div>
+      </template>
+    </div>
+    <div id="event-overlay"></div>
+    <div id="settings-trigger"></div>
+    <div id="settings">
+      <div class="left-align">
+        <div class="setting">
+          <label>Control all:</label>
+          <div class="button-group">
+            <button id="play-all-button">mulaii</button>
+            <button id="pause-all-button">hopp</button>
+            <button id="live-all-button">maen kabeh</button>
+          </div>
+          <div class="setting">
+            <button id="mute-all-button">senyap</button>
+          </div>
+        </div>
+        <div class="setting">
+          <label for="url-input"Link mu templekkan</label>
+          <input type="text"
+                 id="url-input">
+          <button type="button"
+                  id="url-button">
+            Load
+          </button>
+        </div>
+        <div class="setting">
+          <label for="autoplay-checkbox">Auto</label>
+          <input type="checkbox" id="autoplay-checkbox">
+        </div>
+        <div class="setting">
+          <label for="size-select">Fit:</label>
+          <select id="size-select"></select>
+        </div>
+        <div class="setting">
+          <button id="arrange-button">muter</button>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <b>YouTube Multiview</b><br> The source code for this page is
+      hosted on
+      <a href="https://dapokkk.github.io/Youtube-multiview/
+target="_blank">
+        GitHub
+      </a>
+    </div>
+  </body>
+</html>
