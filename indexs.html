@@ -1,68 +1,62 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="referrer" content="no-referrer">
-    <title>YouTube-Multiview</title>More actions
-    <link href="css/style.css" rel="stylesheet">
-    <script type="text/javascript" src="js/script.js" defer></script>
-  </head>
-  <body>
-    <div id="video-box-grid">
-      <template id="video-box-template">
-        <link href="css/style.css" rel="stylesheet">
-        <div class="video-box">
-          <iframe frameborder="0" allowfullscreen></iframe>
-          <div class="video-box-overlay">
-            <button class="remove-button">gosok</button>
-          </div>
-        </div>
-      </template>
-    </div>
-    <div id="event-overlay"></div>
-    <div id="settings-trigger"></div>
-    <div id="settings">
-      <div class="left-align">
-        <div class="setting">
-          <label>Control all:</label>
-          <div class="button-group">
-            <button id="play-all-button">mulaii</button>
-            <button id="pause-all-button">hopp</button>
-            <button id="live-all-button">maen kabeh</button>
-          </div>
-          <div class="setting">
-            <button id="mute-all-button">senyap</button>
-          </div>
-        </div>
-        <div class="setting">
-          <label for="url-input"Link mu templekkan</label>
-          <input type="text"
-                 id="url-input">
-          <button type="button"
-                  id="url-button">
-            Load
-          </button>
-        </div>
-        <div class="setting">
-          <label for="autoplay-checkbox">Auto</label>
-          <input type="checkbox" id="autoplay-checkbox">
-        </div>
-        <div class="setting">
-          <label for="size-select">Fit:</label>
-          <select id="size-select"></select>
-        </div>
-        <div class="setting">
-          <button id="arrange-button">muter</button>
-        </div>
-      </div>
-    </div>
-    <div id="footer">
-      <b>YouTube Multiview</b><br> The source code for this page is
-      hosted on
-      <a href="https://dapokkk.github.io/Youtube-multiview/
-target="_blank">
-        GitHub
-      </a>
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>10 YouTube Views dalam Satu Halaman</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .multiview-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .video-frame {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      background-color: #000;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .video-frame iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Markibol
+(MariKitaJebol)</h1>
+
+<div class="multiview-container">
+  <div class="video-frame"><iframe src="https://www.youtube.com/autoplay=0 " allowfullscreen></iframe></div>
+  <div class="video-frame"><iframe src="https://www.youtube.com/autoplay=0 " allowfullscreen></iframe></div>
+  <div class="video-frame"><iframe src="https://www.youtube.com/autoplay=0 " allowfullscreen></iframe></div>
+  <div class="video-frame"><iframe src="https://www.youtube.com/autoplay=0 " allowfullscreen></iframe></div>
+  <div class="video-frame"><iframe src="https://www.youtube.com/autoplay=0 " allowfullscreen></iframe></div>
+  <div class="video-frame"><iframe src="https://www.youtube.com/autoplay=0 " allowfullscreen></iframe></div>
+  <div class="video-frame"><iframe src="https://www.youtube.com/autoplay=0 " allowfullscreen></iframe></div>
+  <div class="video-frame"><iframe src="https://www.youtube.com/autoplay=0 " allowfullscreen></iframe></div>
+  <div class="video-frame"><iframe src="https://www.youtube.com/autoplay=0 " allowfullscreen></iframe></div>
+  <div class="video-frame"><iframe src="https://www.youtube.com/embed/def456uvw?autoplay=0" allowfullscreen></iframe></div>
+</div>
+
+</body>
 </html>
